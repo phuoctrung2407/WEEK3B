@@ -1,12 +1,7 @@
 version = 1
 
-test_patterns = ["https://github.com/openforcefield/openff-evaluator"]
-
 [[analyzers]]
 name = "python"
 
   [analyzers.meta]
   runtime_version = "3.x.x"
-
-[[transformers]]
-name = "black"
