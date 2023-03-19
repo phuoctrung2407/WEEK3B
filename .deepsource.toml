@@ -1,5 +1,9 @@
 version = 1
 
+test_patterns = ["https://github.com/openforcefield/openff-evaluator"]
+
+exclude_patterns = ["https://github.com/openforcefield/openff-evaluator"]
+
 [[analyzers]]
 name = "python"
 
